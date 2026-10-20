@@ -1,0 +1,12 @@
+# Build output directory and binaries
+build/
+*.o
+*.bin
+*.elf
+test_ring_buffer
+
+# Editor and OS swap files
+.DS_Store
+*~
+*.swp
+ring_buffer
