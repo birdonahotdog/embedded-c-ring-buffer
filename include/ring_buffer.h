@@ -34,4 +34,4 @@ size_t ring_buffer_available(const ring_buffer_t *rb);
 ring_buffer_status_t ring_buffer_push(ring_buffer_t *rb, uint8_t data);
 ring_buffer_status_t ring_buffer_pop(ring_buffer_t *rb, uint8_t *data);
 
-#endif // RING_BUFFER_H
+#endif
